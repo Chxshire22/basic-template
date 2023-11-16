@@ -69,9 +69,33 @@ body {
   }
 }
 
+.icon {
+  width: 40px;
+  height: 40px;
+}
 
-/* buttons */
+.icon--small {
+  width: 30px;
+  height: 30px;
+}
 
+.icon--primary {
+  fill: var(--color-primary);
+}
+
+.icon--white {
+  fill: #ffff;
+}
+
+.icon-container {
+  background: #f3f9fa;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* buttons */
 
