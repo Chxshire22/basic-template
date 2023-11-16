@@ -375,6 +375,10 @@ margin-right: 0;
 
 .email{
   color: var(--color-aqua);
+  transition: 0.3s;
+}
+.email:hover{
+  color: var(--color-hover-aqua);
 }
 
 .contact-form__media img{
