@@ -1,0 +1,34 @@
+/* Variables */
+
+:root {
+  --color-body: #4C4D48;
+  --color-hover-body: #7f807d;
+  --color-papaya: #e24e42;
+  --color-hover-papaya: #c2625a;
+  --color-mustard: #e9b000;
+  --color-hover-mustard: #e6cb7b;
+  --color-aqua: #008f95;
+  --color-hover-aqua: #7a9394;
+  --color-blush: #eb6e80;
+  --color-hover-blush: #f8b1bc;
+  --border-radius: 30px;
+}
+
+
+/* Font family  */
+html{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 2.4rem;
+  padding: 0px;
+  line-height: 1.5;
+  color: var(--color-body-dark);
+  letter-spacing: 1px;
+  font-weight: 200;
+  box-sizing: border-box;
+}
