@@ -7,16 +7,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
 </head>
 <body>
   <div class="container">
-    <nav class="nav collapsible">
+    <nav class="nav collapsible sticky">
     <a href="/"><div>
     <i class="fa-solid fa-meteor icon"></i> 
     </div></a>
@@ -35,9 +35,9 @@
       <div class="hero--tagline">
         <p>this is the hero element so Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, natus!</p>
       </div>
-      <button class="btn btn--secondary btn--small">not sus btn</button>
+      <a href="#callout-id" class="btn btn--secondary btn--small animate__animated animate__headShake">not sus btn</a>
     </div>
-      <div class="callout grid grid--1x2">
+      <div id="callout-id" class="callout grid grid--1x2">
       <div class="callout__description">
         <h2>Want to make a website?</h2>
         <p>Copy the HTML and CSS of this website! Don't think :D <br> Effort is a thing of the past</p>
@@ -68,6 +68,18 @@
         </li>
       </ul>
     </div>
+    <div class="contact-form grid grid--1x2">
+  <div class="contact-form__content">
+    <h2>Call Now</h2>
+    <p>Why wait when you can call me now?????</p>
+    <ul class="contact-details">
+      <li><p><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; +65 182389333 </p></li>
+      <li><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp; <a class="email" href="https://www.theclownschool.com/contact">myemail@rocketmail.com</a></li>
+    </ul>
+  </div>
+  <div class="contact-form__media"><img src="img/catcom.gif" alt="cat on computer"></div>
+</div>
+
   </div>
 <script src="https://kit.fontawesome.com/7d44254a44.js" crossorigin="anonymous"></script>
   <script src="main.js"></script>
